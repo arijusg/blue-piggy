@@ -1,0 +1,37 @@
+// {
+//   "compilerOptions": {
+//     "noImplicitAny": true,
+//     "strictNullChecks": true,
+//     "allowJs": true,
+//     "target": "es5",
+//     "module": "commonjs",
+//     "lib": [
+//       "es5",
+//       "es2015.promise"
+//     ],
+//     "noEmit": true
+//   }
+// }
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    //"outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "strictNullChecks": true
+  },
+  "noEmit": true,
+  //  "include": [
+  //      "src/**/*.ts"
+  //  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
