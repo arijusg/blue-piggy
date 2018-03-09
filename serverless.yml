@@ -17,3 +17,9 @@ functions:
       - http:
           method: get
           path: hello
+  hello2:
+    handler: test.hello
+    events:
+      - http:
+          method: get
+          path: hello
